@@ -1,0 +1,17 @@
+/* Hide scrollbar but reserve space */
+html {
+    overflow-y: scroll;
+    /* Reserve scrollbar space */
+}
+
+::-webkit-scrollbar {
+    display: none;
+    /* For Chrome, Safari, and Opera */
+}
+
+html {
+    -ms-overflow-style: none;
+    /* For Internet Explorer and Edge */
+    scrollbar-width: none;
+    /* For Firefox */
+}
